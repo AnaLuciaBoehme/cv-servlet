@@ -1,0 +1,84 @@
+* {
+  margin: 10px;
+  padding: 0px;
+}
+
+body, html {
+  padding: 3px;
+
+  background-color: rgb(163, 165, 173);
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+img { 
+  width: 110px;
+  margin: 16px 30px 0px 20px;
+  float: left;
+  }
+
+
+.main_page {
+  position: relative;
+  display: table;
+
+  width: 800px;
+
+  margin-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 0px 20px 20px;
+
+  border-width: 2px;
+  border-color: #212738;
+  border-style: solid;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+div.redes-sociais{
+  display: inline;
+}
+
+a:link, a:visited {
+  background-color: #BC91C6;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #8901AA;
+}
+
+ul {
+	padding: 4px 8px 4px 16px;
+	text-align: left;
+}
+li{
+  margin-left: 50px;
+}
+
+h1{
+  text-align:#8901AA;
+  text-align: center;
+}
+
+h2{
+  text-align: left;
+}
+
+h3{
+  border: 1px solid #000; /* Adiciona uma borda preta de 1px */
+  padding: 6px; /* Adiciona um espaçamento interno de 10px */
+  width: 90%; /* Define a largura da caixa */
+}
+
+p{
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
